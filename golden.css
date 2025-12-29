@@ -69,7 +69,7 @@ a {
 }
 
 .hero-sct .bg{
-    background-image: url("./assest/image/bg.webp");
+    background-image: url("./assest/image/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
