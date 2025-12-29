@@ -65,14 +65,14 @@ a {
 /* ------------------------------------------------------------- */
 
 .hero-sct {
-    background: radial-gradient(circle,white, #0B0B0B 35%);
-}
-
-.hero-sct .bg{
     background-image: url("./assest/image/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.hero-sct .bg{
+    background: radial-gradient(circle, #0b0b0b00, #0B0B0B 82%);
 }
 
 .hero-sct .bg .title{
