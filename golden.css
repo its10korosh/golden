@@ -77,9 +77,11 @@ a {
 
 .hero-sct .bg .title{
     text-align: center;
-    color: #EFA036;
     margin-bottom: -65px;
     font-size: 5rem;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(10deg, #EFA036, #FFEAAD);
 }
 
 .hero-sct .bg .img-honey{
