@@ -1,0 +1,88 @@
+html,
+body {
+    background-color: #0B0B0B;
+    max-width: 1440px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------- */
+
+.header {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .text-golden {
+    color: #FFF9C0;
+}
+
+.header .list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 40px;
+    border: 1px solid gold;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.header .list .item {
+    color: #FFC24B;
+}
+
+.header .display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .display .btn-sing-in {
+    color: #FFF9C0;
+    border: 1px solid gold;
+    border-radius: 12px;
+    padding: 20px 35px;
+    background-color: #0B0B0B;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.header .display .btn-sing-up {
+    background-color: #f2ba5a21;
+    color: #FFF9C0;
+    border-radius: 12px;
+    border: 1px solid gold;
+    padding: 20px 35px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+/* ------------------------------------------------------------- */
+
+.hero-sct {
+    background: radial-gradient(circle,white, #0B0B0B 35%);
+}
+
+.hero-sct .bg{
+    background-image: url("./assest/image/bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-sct .bg .title{
+    text-align: center;
+    color: #EFA036;
+    margin-bottom: -65px;
+    font-size: 5rem;
+}
+
+.hero-sct .bg .img-honey{
+    margin: auto;
+    width: 38%;
+}
