@@ -92,7 +92,7 @@ a {
 
 /* ------------------------------------------------------------- */
 
-.sct-two{
+.sct-two {
     margin-top: 70px;
 }
 
@@ -116,24 +116,45 @@ a {
     width: 50%;
 }
 
-.sct-two .part-top .display{
+.sct-two .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-two .part-top .display .title{
+.sct-two .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-two .part-botton{
+.sct-two .part-botton {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-two .part-botton .text{
+.sct-two .part-botton .width {
+    width: 35%;
+}
+
+.sct-two .part-botton .width .text {
     color: #FFF9C0;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.sct-two .part-botton .width .btn-more {
+    background-color: #0B0B0B;
+    color: #FFF9C0;
+    border: 1px solid gold;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sct-two .part-botton .img-honey {
+    width: 30%;
 }
