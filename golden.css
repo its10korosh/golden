@@ -195,3 +195,22 @@ a {
     color: #FFF9C0;
     font-size: 40px;
 }
+
+.sct-three .part-botton{
+    margin: auto;
+    margin-top: 30px;
+    width: 58%;
+}
+
+.sct-three .part-botton .top-display{
+    display: flex;
+    align-items: center;
+}
+
+.sct-three .part-botton .botton-display{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: -30px;
+}
