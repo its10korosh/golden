@@ -196,18 +196,18 @@ a {
     font-size: 40px;
 }
 
-.sct-three .part-botton{
+.sct-three .part-botton {
     margin: auto;
     margin-top: 30px;
     width: 58%;
 }
 
-.sct-three .part-botton .top-display{
+.sct-three .part-botton .top-display {
     display: flex;
     align-items: center;
 }
 
-.sct-three .part-botton .botton-display{
+.sct-three .part-botton .botton-display {
     display: flex;
     align-items: center;
     width: 75%;
@@ -251,4 +251,20 @@ a {
 .sct-four .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
+}
+
+.sct-four .slider {
+    background-color: #ffb9410e;
+    border-radius: 50px;
+    padding: 30px;
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.sct-four .slider .part-left .text {
+    color: #FFF9C0;
 }
