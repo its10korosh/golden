@@ -268,3 +268,56 @@ a {
 .sct-four .slider .part-left .text {
     color: #FFF9C0;
 }
+
+.sct-four .slider .part-right .discription {
+    color: #FFF9C0;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.sct-four .slider .part-right .discription b {
+    color: #FFBA41;
+}
+
+.sct-four .slider .part-right .information {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sct-four .slider .part-right .information .text {
+    color: #FFBA41;
+    font-size: 18px;
+}
+
+.sct-four .slider .part-right .information .display {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.sct-four .slider .part-right .information .line {
+    height: 99px;
+    width: 2px;
+    background: radial-gradient(circle, #FFBA41, #3E2804);
+}
+
+.sct-four .slider .part-right .information .text {
+    color: #FFF9C0;
+    font-size: 18px;
+}
+
+.sct-four .slider .part-right .information .text .span {
+    color: #FFBA41;
+    font-size: 18px;
+}
+
+.sct-four .slider .part-right .information .btn-add-cart {
+    background-color: #f2ba5a10;
+    color: #FFF9C0;
+    border: 1px solid gold;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    font-size: 16px;
+}
