@@ -323,3 +323,55 @@ a {
     font-size: 16px;
     font-family: "Lora", serif;
 }
+
+/* ------------------------------------------------------------- */
+
+.sct-five {
+    margin-top: 70px;
+}
+
+.sct-five .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-five .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-five .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-five .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-five .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-five .gallery-picture {
+    width: 50%;
+}
+
+.sct-five .gallery-picture .part-top {
+    display: flex;
+    align-items: center;
+}
+
+.sct-five .gallery-picture .part-botton {
+    display: flex;
+    align-items: center;
+}
