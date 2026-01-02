@@ -494,6 +494,10 @@ a {
     font-size: 40px;
 }
 
+.sct-seven .part-botton {
+    margin-top: 50px;
+}
+
 .sct-seven .part-botton .first-row {
     display: flex;
     align-items: center;
@@ -502,13 +506,13 @@ a {
     margin-bottom: -40px;
 }
 
-.sct-seven .part-botton .secend-row{
+.sct-seven .part-botton .secend-row {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.sct-seven .part-botton .third-row{
+.sct-seven .part-botton .third-row {
     display: flex;
     align-items: center;
     justify-content: end;
