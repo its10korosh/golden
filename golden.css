@@ -380,3 +380,73 @@ a {
     gap: 50px;
     margin-top: -120px;
 }
+
+/* ------------------------------------------------------------- */
+
+.sct-six {
+    margin-top: 70px;
+}
+
+.sct-six .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-six .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sct-six .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-six .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-six .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-six .part-botton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-six .part-botton .width {
+    width: 35%;
+}
+
+.sct-six .part-botton .width .text {
+    color: #FFF9C0;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.sct-six .part-botton .width .btn-more {
+    background-color: #0B0B0B;
+    color: #FFF9C0;
+    border: 1px solid gold;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: "Lora", serif;
+}
+
+.sct-six .part-botton .img-skincare {
+    width: 30%;
+}
