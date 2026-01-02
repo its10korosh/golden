@@ -363,16 +363,20 @@ a {
 }
 
 .sct-five .gallery-picture {
-    /* width: 50%; */
+    width: 90%;
     margin-top: 20px;
+    margin: auto;
 }
 
 .sct-five .gallery-picture .part-top {
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 
 .sct-five .gallery-picture .part-botton {
     display: flex;
     align-items: center;
+    gap: 50px;
+    margin-top: -120px;
 }
