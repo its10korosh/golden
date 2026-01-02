@@ -457,3 +457,63 @@ a {
 }
 
 /* ------------------------------------------------------------- */
+
+.sct-seven {
+    margin-top: 70px;
+}
+
+.sct-seven .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-seven .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-seven .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-seven .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-seven .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-seven .part-botton .first-row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom: -40px;
+}
+
+.sct-seven .part-botton .secend-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sct-seven .part-botton .third-row{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    margin-top: -40px;
+}
+
+/* ------------------------------------------------------------- */
