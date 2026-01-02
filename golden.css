@@ -363,7 +363,8 @@ a {
 }
 
 .sct-five .gallery-picture {
-    width: 50%;
+    /* width: 50%; */
+    margin-top: 20px;
 }
 
 .sct-five .gallery-picture .part-top {
