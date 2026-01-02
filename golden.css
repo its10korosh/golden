@@ -561,18 +561,25 @@ a {
 .sct-eight .part-botton {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    margin-top: 30px;
+    gap: 50px;
 }
 
-.sct-eight .part-botton .h3 {
+.sct-eight .part-botton .width{
+    width: 29%;
+}
+
+.sct-eight .part-botton .width .h3 {
     color: #FFF9C0;
 }
 
-.sct-eight .part-botton .h4 {
+.sct-eight .part-botton .width .h4 {
     color: #FFF9C0;
 }
 
-.sct-eight .part-botton .discription {
+.sct-eight .part-botton .width .discription {
     color: #FFF9C0;
-    line-height: 10px;
+    line-height: 50px;
+    font-size: 18px;
 }
