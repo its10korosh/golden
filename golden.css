@@ -122,59 +122,59 @@ a {
 
 /* ------------------------------------------------------------- */
 
-.sct-two {
+.sct-about {
     margin-top: 70px;
 }
 
-.sct-two .part-top {
+.sct-about .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-two .part-top .display {
+.sct-about .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-.sct-two .part-top .line {
+.sct-about .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-two .part-top .display {
+.sct-about .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-two .part-top .display .title {
+.sct-about .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-two .part-botton {
+.sct-about .part-botton {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-two .part-botton .width {
+.sct-about .part-botton .width {
     width: 35%;
 }
 
-.sct-two .part-botton .width .text {
+.sct-about .part-botton .width .text {
     color: #FFF9C0;
     line-height: 50px;
     font-size: 18px;
 }
 
-.sct-two .part-botton .width .btn-more {
+.sct-about .part-botton .width .btn-more {
     background-color: #0B0B0B;
     color: #FFF9C0;
     border: 1px solid gold;
@@ -186,59 +186,59 @@ a {
     font-family: "Lora", serif;
 }
 
-.sct-two .part-botton .img-honey {
+.sct-about .part-botton .img-honey {
     width: 30%;
 }
 
 /* ------------------------------------------------------------- */
 
-.sct-three {
+.sct-product {
     margin-top: 70px;
 }
 
-.sct-three .part-top {
+.sct-product .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-three .part-top .display {
+.sct-product .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
 }
 
-.sct-three .part-top .line {
+.sct-product .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-three .part-top .display {
+.sct-product .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-three .part-top .display .title {
+.sct-product .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-three .part-botton {
+.sct-product .part-botton {
     margin: auto;
     margin-top: 30px;
     width: 58%;
 }
 
-.sct-three .part-botton .top-display {
+.sct-product .part-botton .top-display {
     display: flex;
     align-items: center;
 }
 
-.sct-three .part-botton .botton-display {
+.sct-product .part-botton .botton-display {
     display: flex;
     align-items: center;
     width: 75%;
@@ -248,43 +248,43 @@ a {
 
 /* ------------------------------------------------------------- */
 
-.sct-four {
+.sct-shop {
     margin-top: 70px;
 }
 
-.sct-four .part-top {
+.sct-shop .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-four .part-top .display {
+.sct-shop .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
     width: 315px;
 }
 
-.sct-four .part-top .line {
+.sct-shop .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-four .part-top .display {
+.sct-shop .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-four .part-top .display .title {
+.sct-shop .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-four .slider {
+.sct-shop .slider {
     background-color: #ffb9410e;
     border-radius: 50px;
     padding: 30px;
@@ -296,54 +296,54 @@ a {
     gap: 20px;
 }
 
-.sct-four .slider .part-left .text {
+.sct-shop .slider .part-left .text {
     color: #FFF9C0;
 }
 
-.sct-four .slider .part-right .discription {
+.sct-shop .slider .part-right .discription {
     color: #FFF9C0;
     font-size: 18px;
     line-height: 34px;
 }
 
-.sct-four .slider .part-right .discription b {
+.sct-shop .slider .part-right .discription b {
     color: #FFBA41;
 }
 
-.sct-four .slider .part-right .information {
+.sct-shop .slider .part-right .information {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.sct-four .slider .part-right .information .text {
+.sct-shop .slider .part-right .information .text {
     color: #FFBA41;
     font-size: 18px;
 }
 
-.sct-four .slider .part-right .information .display {
+.sct-shop .slider .part-right .information .display {
     display: flex;
     gap: 10px;
     align-items: end;
 }
 
-.sct-four .slider .part-right .information .line {
+.sct-shop .slider .part-right .information .line {
     height: 99px;
     width: 2px;
     background: radial-gradient(circle, #FFBA41, #3E2804);
 }
 
-.sct-four .slider .part-right .information .text {
+.sct-shop .slider .part-right .information .text {
     color: #FFF9C0;
     font-size: 18px;
 }
 
-.sct-four .slider .part-right .information .text .span {
+.sct-shop .slider .part-right .information .text .span {
     color: #FFBA41;
     font-size: 18px;
 }
 
-.sct-four .slider .part-right .information .btn-add-cart {
+.sct-shop .slider .part-right .information .btn-add-cart {
     background-color: #f2ba5a10;
     color: #FFF9C0;
     border: 1px solid gold;
@@ -354,7 +354,7 @@ a {
     font-family: "Lora", serif;
 }
 
-.sct-four .polygon-slider {
+.sct-shop .polygon-slider {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -365,55 +365,55 @@ a {
 
 /* ------------------------------------------------------------- */
 
-.sct-five {
+.sct-gallery {
     margin-top: 70px;
 }
 
-.sct-five .part-top {
+.sct-gallery .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-five .part-top .display {
+.sct-gallery .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
     width: 315px;
 }
 
-.sct-five .part-top .line {
+.sct-gallery .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-five .part-top .display {
+.sct-gallery .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-five .part-top .display .title {
+.sct-gallery .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-five .gallery-picture {
+.sct-gallery .gallery-picture {
     width: 90%;
     margin-top: 20px;
     margin: auto;
 }
 
-.sct-five .gallery-picture .part-top {
+.sct-gallery .gallery-picture .part-top {
     display: flex;
     align-items: center;
     gap: 50px;
 }
 
-.sct-five .gallery-picture .part-botton {
+.sct-gallery .gallery-picture .part-botton {
     display: flex;
     align-items: center;
     gap: 50px;
@@ -422,60 +422,60 @@ a {
 
 /* ------------------------------------------------------------- */
 
-.sct-six {
+.sct-beauty {
     margin-top: 70px;
 }
 
-.sct-six .part-top {
+.sct-beauty .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-six .part-top .display {
+.sct-beauty .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
     width: 315px;
 }
 
-.sct-six .part-top .line {
+.sct-beauty .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-six .part-top .display {
+.sct-beauty .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-six .part-top .display .title {
+.sct-beauty .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-six .part-botton {
+.sct-beauty .part-botton {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-six .part-botton .width {
+.sct-beauty .part-botton .width {
     width: 35%;
 }
 
-.sct-six .part-botton .width .text {
+.sct-beauty .part-botton .width .text {
     color: #FFF9C0;
     line-height: 50px;
     font-size: 18px;
 }
 
-.sct-six .part-botton .width .btn-more {
+.sct-beauty .part-botton .width .btn-more {
     background-color: #0B0B0B;
     color: #FFF9C0;
     border: 1px solid gold;
@@ -487,53 +487,53 @@ a {
     font-family: "Lora", serif;
 }
 
-.sct-six .part-botton .img-skincare {
+.sct-beauty .part-botton .img-skincare {
     width: 30%;
 }
 
 /* ------------------------------------------------------------- */
 
-.sct-seven {
+.sct-review {
     margin-top: 70px;
 }
 
-.sct-seven .part-top {
+.sct-review .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-seven .part-top .display {
+.sct-review .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
     width: 315px;
 }
 
-.sct-seven .part-top .line {
+.sct-review .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-seven .part-top .display {
+.sct-review .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-seven .part-top .display .title {
+.sct-review .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-seven .part-botton {
+.sct-review .part-botton {
     margin-top: 50px;
 }
 
-.sct-seven .part-botton .first-row {
+.sct-review .part-botton .first-row {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -541,13 +541,13 @@ a {
     margin-bottom: -40px;
 }
 
-.sct-seven .part-botton .secend-row {
+.sct-review .part-botton .secend-row {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.sct-seven .part-botton .third-row {
+.sct-review .part-botton .third-row {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -557,43 +557,43 @@ a {
 
 /* ------------------------------------------------------------- */
 
-.sct-eight {
+.sct-meet {
     margin-top: 70px;
 }
 
-.sct-eight .part-top {
+.sct-meet .part-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
 }
 
-.sct-eight .part-top .display {
+.sct-meet .part-top .display {
     display: flex;
     align-items: center;
     gap: 6px;
     width: 315px;
 }
 
-.sct-eight .part-top .line {
+.sct-meet .part-top .line {
     height: 4px;
     background: linear-gradient(90deg, #FFBA41, #0B0B0B);
     border-radius: 5px;
     width: 50%;
 }
 
-.sct-eight .part-top .display {
+.sct-meet .part-top .display {
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.sct-eight .part-top .display .title {
+.sct-meet .part-top .display .title {
     color: #FFF9C0;
     font-size: 40px;
 }
 
-.sct-eight .part-botton {
+.sct-meet .part-botton {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -601,19 +601,19 @@ a {
     gap: 50px;
 }
 
-.sct-eight .part-botton .width {
+.sct-meet .part-botton .width {
     width: 29%;
 }
 
-.sct-eight .part-botton .width .h3 {
+.sct-meet .part-botton .width .h3 {
     color: #FFF9C0;
 }
 
-.sct-eight .part-botton .width .h4 {
+.sct-meet .part-botton .width .h4 {
     color: #FFF9C0;
 }
 
-.sct-eight .part-botton .width .discription {
+.sct-meet .part-botton .width .discription {
     color: #FFF9C0;
     line-height: 50px;
     font-size: 18px;
