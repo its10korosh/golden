@@ -670,6 +670,7 @@ a {
     color: #FFF9C0;
     padding: 14px 12px 14px 24px;
     width: 615px;
+    border-left: 1px solid gold;
 }
 
 .final-sct .btn-subscribe {
