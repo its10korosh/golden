@@ -114,7 +114,7 @@ a {
     width: 38%;
 }
 
-.hero-sct .bg .svg-downside{
+.hero-sct .bg .svg-downside {
     margin: auto;
     margin-top: 200px;
     width: 5%;
@@ -352,6 +352,15 @@ a {
     box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
     font-size: 16px;
     font-family: "Lora", serif;
+}
+
+.sct-four .polygon-slider {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: auto;
+    margin-top: 75px;
+    width: 12%;
 }
 
 /* ------------------------------------------------------------- */
