@@ -420,6 +420,14 @@ a {
     margin-top: -120px;
 }
 
+.sct-gallery .width{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+
 /* ------------------------------------------------------------- */
 
 .sct-beauty {
