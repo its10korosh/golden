@@ -686,10 +686,50 @@ a {
 
 .footer {
     background-image: url("./assest/image/bg-footer.png");
-    grid-template-columns: repeat(2,1fr);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     margin-top: 100px;
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.footer .part-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+.footer .part-left .display {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.footer .part-left .display .list {
+    list-style: none;
+    line-height: 50px;
+}
+
+.footer .part-left .display .list .item {
+    color: #FFF9C0;
+}
+
+.footer .part-left .social-media {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .part-left .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer .part-left .logo .text {
+    margin: 0px;
+    color: #FFDC83;
 }
