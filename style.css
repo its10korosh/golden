@@ -1,0 +1,1050 @@
+html,
+body {
+    background-color: #0B0B0B;
+    font-family: "Lora", serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------- */
+
+.header {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .text-golden {
+    color: #FFF9C0;
+    margin: 0px;
+}
+
+.header .list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 40px;
+    border: 1px solid gold;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    margin: 0px;
+}
+
+.header .list .item {
+    color: #FFC24B;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.header .list .item.active::before {
+    content: '•';
+    position: absolute;
+    left: -15px;
+    color: gold;
+    font-size: 20px;
+}
+
+.header .list .item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: gold;
+}
+
+.header .display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header .display .btn-sing-in {
+    color: #FFF9C0;
+    border: 1px solid gold;
+    border-radius: 12px;
+    padding: 20px 35px;
+    background-color: #0B0B0B;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.header .display .btn-sing-up {
+    background-color: #f2ba5a21;
+    color: #FFF9C0;
+    border-radius: 12px;
+    border: 1px solid gold;
+    padding: 20px 35px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+/* ------------------------------------------------------------- */
+
+.hero-sct {
+    background-image: url("./assest/image/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-sct .bg {
+    background: radial-gradient(circle, #0b0b0b00, #0B0B0B 82%);
+}
+
+.hero-sct .bg .title {
+    text-align: center;
+    margin-bottom: -65px;
+    font-size: 5rem;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(10deg, #EFA036, #FFEAAD);
+}
+
+.hero-sct .bg .img-honey {
+    margin: auto;
+    width: 38%;
+}
+
+.hero-sct .bg .svg-downside {
+    margin: auto;
+    margin-top: 200px;
+    width: 5%;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-about {
+    margin-top: 70px;
+}
+
+.sct-about .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-about .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sct-about .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-about .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-about .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-about .part-botton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-about .part-botton .width {
+    width: 35%;
+}
+
+.sct-about .part-botton .width .text {
+    color: #FFF9C0;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.sct-about .part-botton .width .btn-more {
+    background-color: #0B0B0B;
+    color: #FFF9C0;
+    border: 1px solid gold;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: "Lora", serif;
+}
+
+.sct-about .part-botton .img-honey {
+    width: 30%;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-product {
+    margin-top: 70px;
+}
+
+.sct-product .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-product .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sct-product .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-product .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-product .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-product .part-botton {
+    margin: auto;
+    margin-top: 30px;
+    width: 58%;
+}
+
+.sct-product .part-botton .top-display {
+    display: flex;
+    align-items: center;
+}
+
+.sct-product .part-botton .botton-display {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    margin-top: -30px;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-shop {
+    margin-top: 70px;
+}
+
+.sct-shop .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-shop .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-shop .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-shop .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-shop .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-shop .slider {
+    background-color: #ffb9410e;
+    border-radius: 50px;
+    padding: 30px;
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.sct-shop .slider .part-left .text {
+    color: #FFF9C0;
+}
+
+.sct-shop .slider .part-right .discription {
+    color: #FFF9C0;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.sct-shop .slider .part-right .discription b {
+    color: #FFBA41;
+}
+
+.sct-shop .slider .part-right .information {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sct-shop .slider .part-right .information .text {
+    color: #FFBA41;
+    font-size: 18px;
+}
+
+.sct-shop .slider .part-right .information .display {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+
+.sct-shop .slider .part-right .information .line {
+    height: 99px;
+    width: 2px;
+    background: radial-gradient(circle, #FFBA41, #3E2804);
+}
+
+.sct-shop .slider .part-right .information .text {
+    color: #FFF9C0;
+    font-size: 18px;
+}
+
+.sct-shop .slider .part-right .information .text .span {
+    color: #FFBA41;
+    font-size: 18px;
+}
+
+.sct-shop .slider .part-right .information .btn-add-cart {
+    background-color: #f2ba5a10;
+    color: #FFF9C0;
+    border: 1px solid gold;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    font-size: 16px;
+    font-family: "Lora", serif;
+}
+
+.sct-shop .polygon-slider {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin: auto;
+    margin-top: 75px;
+    width: 12%;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-gallery {
+    margin-top: 70px;
+}
+
+.sct-gallery .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-gallery .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-gallery .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-gallery .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-gallery .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-gallery .gallery-picture {
+    width: 90%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.sct-gallery .gallery-picture .part-top {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.sct-gallery .gallery-picture .part-botton {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: -120px;
+}
+
+.sct-gallery .width {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-beauty {
+    margin-top: 70px;
+}
+
+.sct-beauty .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-beauty .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-beauty .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-beauty .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-beauty .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-beauty .part-botton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-beauty .part-botton .width {
+    width: 35%;
+}
+
+.sct-beauty .part-botton .width .text {
+    color: #FFF9C0;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.sct-beauty .part-botton .width .btn-more {
+    background-color: #0B0B0B;
+    color: #FFF9C0;
+    border: 1px solid gold;
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: "Lora", serif;
+}
+
+.sct-beauty .part-botton .img-skincare {
+    width: 30%;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-review {
+    margin-top: 70px;
+}
+
+.sct-review .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-review .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-review .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-review .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-review .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-review .part-botton {
+    margin-top: 50px;
+}
+
+.sct-review .part-botton .first-row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    margin-bottom: -40px;
+}
+
+.sct-review .part-botton .secend-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sct-review .part-botton .third-row {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    margin-top: -40px;
+}
+
+/* ------------------------------------------------------------- */
+
+.sct-meet {
+    margin-top: 70px;
+}
+
+.sct-meet .part-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.sct-meet .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 315px;
+}
+
+.sct-meet .part-top .line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 50%;
+}
+
+.sct-meet .part-top .display {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sct-meet .part-top .display .title {
+    color: #FFF9C0;
+    font-size: 40px;
+}
+
+.sct-meet .part-botton {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 30px;
+    gap: 50px;
+    padding-right: 10px;
+}
+
+.sct-meet .part-botton .width {
+    width: 28%;
+}
+
+.sct-meet .part-botton .width .h3 {
+    color: #FFF9C0;
+}
+
+.sct-meet .part-botton .width .h4 {
+    color: #FFF9C0;
+}
+
+.sct-meet .part-botton .width .discription {
+    color: #FFF9C0;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+/* ------------------------------------------------------------- */
+
+.final-sct {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+}
+
+.final-sct .display {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.final-sct .display .first-line {
+    height: 4px;
+    background: linear-gradient(90deg, #0B0B0B, #FFBA41);
+    border-radius: 5px;
+    width: 312px;
+}
+
+.final-sct .display .text {
+    color: #FFF9C0;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.final-sct .display .secend-line {
+    height: 4px;
+    background: linear-gradient(90deg, #FFBA41, #0B0B0B);
+    border-radius: 5px;
+    width: 312px;
+}
+
+.final-sct #email-address {
+    background-color: #221D13;
+    border-radius: 12px;
+    border: none;
+    color: #FFF9C0;
+    padding: 14px 12px 14px 24px;
+    width: 615px;
+    border-left: 1px solid gold;
+}
+
+.final-sct .btn-subscribe {
+    color: #FFF9C0;
+    padding: 18px;
+    border: 1px solid gold;
+    border-radius: 12px;
+    background-color: #0B0B0B;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+/* ------------------------------------------------------------- */
+
+.footer {
+    background-image: url("./assest/image/bg-footer.png");
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.footer .part-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+
+.footer .part-left .display {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.footer .part-left .display .list {
+    list-style: none;
+    line-height: 50px;
+}
+
+.footer .part-left .display .list .item {
+    color: #FFF9C0;
+}
+
+.footer .part-left .social-media {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer .part-left .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer .part-left .logo .text {
+    margin: 0px;
+    color: #FFDC83;
+}
+
+@media (max-width: 1024px) {
+  body { overflow-x: hidden; }
+  img { max-width: 100%; height: auto; }
+
+  /* ---------- Header ---------- */
+  .header{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    padding: 12px 16px;
+  }
+
+  .header .text-golden{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .header .list{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    padding: 12px 14px;
+  }
+
+  .header .list .item.active::before{
+    left: -10px;
+  }
+
+  .header .display{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .header .display .btn-sing-in,
+  .header .display .btn-sing-up{
+    padding: 14px 22px;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero-sct .bg{
+    padding: 24px 16px 30px;
+  }
+
+  .hero-sct .bg .title{
+    font-size: clamp(32px, 6vw, 56px);
+    margin-bottom: 0;
+  }
+
+  .hero-sct .bg .img-honey{
+    width: min(70%, 420px);
+  }
+
+  .hero-sct .bg .svg-downside{
+    width: 50px;
+    margin-top: 60px;
+  }
+
+  /* ---------- Common section titles ---------- */
+  .sct-about .part-top,
+  .sct-product .part-top,
+  .sct-shop .part-top,
+  .sct-gallery .part-top,
+  .sct-beauty .part-top,
+  .sct-review .part-top,
+  .sct-meet .part-top{
+    padding: 0 16px;
+  }
+
+  .sct-about .part-top .line,
+  .sct-product .part-top .line,
+  .sct-shop .part-top .line,
+  .sct-gallery .part-top .line,
+  .sct-beauty .part-top .line,
+  .sct-review .part-top .line,
+  .sct-meet .part-top .line{
+    width: 45%;
+  }
+
+  /* ---------- About + Beauty (دو ستونه → بهتر) ---------- */
+  .sct-about .part-botton,
+  .sct-beauty .part-botton{
+    gap: 24px;
+    padding: 0 16px;
+  }
+
+  .sct-about .part-botton .width,
+  .sct-beauty .part-botton .width{
+    width: 52%;
+  }
+
+  .sct-about .part-botton .img-honey,
+  .sct-beauty .part-botton .img-skincare{
+    width: 40%;
+  }
+
+  .sct-about .part-botton .width .text,
+  .sct-beauty .part-botton .width .text{
+    line-height: 38px;
+  }
+
+  /* ---------- Products ---------- */
+  .sct-product .part-botton{
+    width: 92%;
+    padding: 0 16px;
+  }
+
+  .sct-product .part-botton .top-display{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .sct-product .part-botton .botton-display{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  /* ---------- Shop slider ---------- */
+  .sct-shop .slider{
+    width: 92%;
+    padding: 20px;
+    border-radius: 28px;
+    gap: 20px;
+  }
+
+  .sct-shop .slider .part-right .information{
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  .sct-shop .slider .part-right .information .line{
+    display: none; /* تو عرض کم اذیت می‌کنه */
+  }
+
+  .sct-shop .polygon-slider{
+    width: auto;
+    justify-content: center;
+  }
+
+  /* ---------- Gallery ---------- */
+  .sct-gallery .gallery-picture{
+    width: 92%;
+    padding: 0 16px;
+  }
+
+  .sct-gallery .gallery-picture .part-top,
+  .sct-gallery .gallery-picture .part-botton{
+    gap: 16px;
+    margin-top: 0;
+  }
+
+  .sct-gallery .width{
+    width: 70%;
+    margin-top: 18px;
+  }
+
+  /* ---------- Reviews ---------- */
+  .sct-review .part-botton{
+    padding: 0 16px;
+  }
+
+  .sct-review .part-botton .first-row,
+  .sct-review .part-botton .secend-row,
+  .sct-review .part-botton .third-row{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0;
+  }
+
+  /* ---------- Meet ---------- */
+  .sct-meet .part-botton{
+    padding: 0 16px;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .sct-meet .part-botton .width{
+    width: 50%;
+  }
+
+  .sct-meet .part-botton .width .discription{
+    line-height: 38px;
+  }
+
+  /* ---------- Subscribe ---------- */
+  .final-sct{
+    padding: 0 16px;
+    gap: 28px;
+    margin-top: 110px;
+  }
+
+  .final-sct .display{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .final-sct .display .first-line,
+  .final-sct .display .secend-line{
+    width: 180px;
+  }
+
+  .final-sct #email-address{
+    width: min(92vw, 520px);
+  }
+
+  /* ---------- Footer ---------- */
+  .footer{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px 16px 50px;
+    text-align: center;
+  }
+
+  .footer .part-left{
+    align-items: center;
+  }
+
+  .footer .part-left .display{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px 50px;
+  }
+}
+
+/* ============ Mobile ============ */
+@media (max-width: 768px) {
+
+  /* Header */
+  .header .list{
+    padding: 10px 10px;
+    gap: 10px;
+  }
+
+  /* Hero */
+  .hero-sct .bg .img-honey{
+    width: min(88%, 360px);
+  }
+
+  /* About + Beauty: تک ستونه */
+  .sct-about .part-botton,
+  .sct-beauty .part-botton{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sct-about .part-botton .width,
+  .sct-beauty .part-botton .width{
+    width: 100%;
+  }
+
+  .sct-about .part-botton .img-honey,
+  .sct-beauty .part-botton .img-skincare{
+    width: min(85%, 360px);
+  }
+
+  /* Shop: تک ستونه */
+  .sct-shop .slider{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sct-shop .slider .part-right .discription{
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .sct-shop .slider .part-right .information{
+    justify-content: center;
+  }
+
+  /* Gallery: تک ستونه */
+  .sct-gallery .gallery-picture .part-top,
+  .sct-gallery .gallery-picture .part-botton{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sct-gallery .width{
+    width: 92%;
+  }
+
+  /* Meet: تک ستونه */
+  .sct-meet .part-botton{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sct-meet .part-botton .width{
+    width: 100%;
+  }
+
+  .sct-meet .part-botton img{
+    width: min(90%, 420px);
+  }
+
+  /* Subscribe lines کوچیک‌تر */
+  .final-sct .display .first-line,
+  .final-sct .display .secend-line{
+    width: 120px;
+  }
+}
